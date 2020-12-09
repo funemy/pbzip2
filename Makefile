@@ -87,4 +87,4 @@ install: pbzip2
 	chmod a+r $(DESTDIR)$(PREFIX)/share/man/man1/pbzip2.1
 
 clean:
-	rm -f *.o pbz2
+	rm *.o pbz2
