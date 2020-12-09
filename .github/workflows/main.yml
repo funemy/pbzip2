@@ -29,4 +29,6 @@ jobs:
           sudo apt-get install -y libbz2-dev
       - name: coderrect scann
         uses: coderrect-inc/coderrect-github-action@v0.6
+        with:
+          buildCommand: "make CXX=gcc -j"
 
