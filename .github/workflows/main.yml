@@ -31,4 +31,5 @@ jobs:
         uses: coderrect-inc/coderrect-github-action@v0.6
         with:
           buildCommand: "make CXX=g++ -j"
+          cleanCommand: "make clean 2>/dev/null" 
 
